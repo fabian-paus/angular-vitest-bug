@@ -18,6 +18,7 @@ export default defineConfig(({ mode }) => ({
     setupFiles: ['src/test-setup.ts'],
     include: ['**/*.spec.ts'],
     reporters: ['default'],
+    pool: 'threads', // ADDED THIS LINE
   },
   define: {
     'import.meta.vitest': mode !== 'production',
