@@ -6,8 +6,8 @@ we get a strange ESM / CommonJS error.
 Tested on:
 
 - Windows and Linux
-- Node 22
-- Vitest version 1.6
+- Node 22.11 and 20.18
+- Vitest version 1.6 and 2.1.4
 
 Questions:
 
